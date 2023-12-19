@@ -38,8 +38,7 @@ function renderUsers(users) {
       //CSS-stil 
       listItem.style.margin = '2px';
     
-     
-    listItem.style.backgroundColor = user.color;
+     listItem.style.backgroundColor = user.color;
       userList.appendChild(listItem);
 
 
