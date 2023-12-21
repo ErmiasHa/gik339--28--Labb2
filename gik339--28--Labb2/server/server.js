@@ -16,7 +16,6 @@ server
   server.get('/users', (req, res) => {
     db.all('SELECT * FROM users', (err, rows) => {
       if (err) {
-        // Lägg till felhantering om det behövs
         res.status(500).send(err);
       } else {
         res.send(rows);
@@ -31,9 +30,7 @@ server
 });
 
 
-
-  
-  const sqlite3 = require('sqlite3').verbose();
+const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('./gik339-labb2.db');
 
 
