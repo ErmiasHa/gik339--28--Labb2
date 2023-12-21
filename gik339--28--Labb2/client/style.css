@@ -1,14 +1,8 @@
  li {
     list-style: disc;
-    /* padding: -1px; */
     margin: 1px;
     border-radius: 4px;
     margin-top: 5px;
     font-weight: bold;
   }
   
-/* 
-  .username {
-    color: #555;
-  }
-    */
